@@ -50,10 +50,10 @@
                 <h1 class="text-2xl">Inaklug</h1>
             </div>
             <nav class="hidden md:flex gap-5 text-sm ml-10">
-                <a href="#home" class="hover:text-gray-200 transition-colors duration-300">Home</a>
-                <a href="#tentang-kami" class="hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
+                <a href="/" class="hover:text-gray-200 transition-colors duration-300">Home</a>
+                <a href="/tentang" class="hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
                 <a href="#layanan-kami" class="hover:text-gray-200 transition-colors duration-300">Layanan Kami</a>
-                <a href="#artikel" class="hover:text-gray-200 transition-colors duration-300">Artikel</a>
+                <a href="/article" class="hover:text-gray-200 transition-colors duration-300">Artikel</a>
                 <a href="#hubungi-kami" class="hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
             </nav>
             <button type="button" class="ml-auto px-6 py-2 bg-[#1E3A8A] text-white rounded-full hover:bg-blue-700">Daftar Online</button>

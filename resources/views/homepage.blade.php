@@ -76,7 +76,7 @@
                 <a href="{{ url('/') }}" class="hover:text-gray-200 transition-colors duration-300">Home</a>
                 <a href="{{ url('/tentang') }}" class="hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
                 <a href="#layanan-kami" class="hover:text-gray-200 transition-colors duration-300">Layanan Kami</a>
-                <a href="{{ url('/artikel') }}" class="hover:text-gray-200 transition-colors duration-300">Artikel</a>
+                <a href="{{ url('/article') }}" class="hover:text-gray-200 transition-colors duration-300">Artikel</a>
                 <a href="#hubungi-kami" class="hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
             </nav>
             <button type="button" class="ml-auto px-6 py-2 bg-[#1E3A8A] text-white rounded-full hover:bg-blue-700">Daftar Online</button>
@@ -92,10 +92,10 @@
 
         <nav id="mobile-menu" class="hidden md:hidden">
             <div class="flex flex-col bg-gradient-to-r from-[#46074E] to-[#197BD0] text-white text-sm">
-                <a href="#home" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Home</a>
-                <a href="#tentang-kami" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Tentang Kami</a>
+                <a href="/" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Home</a>
+                <a href="/tentang" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Tentang Kami</a>
                 <a href="#layanan-kami" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Layanan Kami</a>
-                <a href="#artikel" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Artikel</a>
+                <a href="/article" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Artikel</a>
                 <a href="#hubungi-kami" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Hubungi Kami</a>
             </div>
         </nav>
@@ -196,7 +196,7 @@
         <div class="flex flex-wrap justify-center gap-8">
             <!-- Logo Mitra 1 -->
             <div class="bg-white border rounded-lg shadow-md p-4 flex items-center justify-center w-48 h-25"> <!-- Ukuran ditingkatkan -->
-                <img src="images/424.png" alt="424 Aviation" class="max-h-full w-full object-contain"> <!-- ditambahkan w-full dan object-contain -->
+                <img src="images/424.jpeg" alt="424 Aviation" class="max-h-full w-full object-contain"> <!-- ditambahkan w-full dan object-contain -->
             </div>
             <!-- Logo Mitra 2 -->
             <div class="bg-white border rounded-lg shadow-md p-4 flex items-center justify-center w-48 h-25"> <!-- Ukuran ditingkatkan -->
@@ -237,28 +237,28 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
             <!-- Artikel 1 -->
             <div class="bg-white rounded-lg overflow-hidden">
-                <img src="images/ar1.png" alt="Artikel 1" class="w-full h-60 object-cover"> <!-- Gambar diperbesar -->
+                <img src="images/artikel1.jpg" alt="Artikel 1" class="w-full h-60 object-cover"> <!-- Gambar diperbesar -->
                 <div class="p-4">
                     <p class="text-gray-700 font-semibold">5 Fakta yang Harus Kamu Ketahui Sebelum Studi ke Jerman</p>
                 </div>
             </div>
             <!-- Artikel 2 -->
             <div class="bg-white rounded-lg overflow-hidden">
-                <img src="images/ar2.png" alt="Artikel 2" class="w-full h-60 object-cover"> <!-- Gambar diperbesar -->
+                <img src="images/artikel2.jpg" alt="Artikel 2" class="w-full h-60 object-cover"> <!-- Gambar diperbesar -->
                 <div class="p-4">
                     <p class="text-gray-700 font-semibold">Uni Eropa Menghadapi Virus Korona</p>
                 </div>
             </div>
             <!-- Artikel 3 -->
             <div class="bg-white rounded-lg overflow-hidden">
-                <img src="images/ar3.png" alt="Artikel 3" class="w-full h-60 object-cover"> <!-- Gambar diperbesar -->
+                <img src="images/artikel3.jpg" alt="Artikel 3" class="w-full h-60 object-cover"> <!-- Gambar diperbesar -->
                 <div class="p-4">
                     <p class="text-gray-700 font-semibold">Belajar Bahasa Jerman Bersama Goethe Institut</p>
                 </div>
             </div>
             <!-- Artikel 4 -->
             <div class="bg-white rounded-lg overflow-hidden">
-                <img src="images/ar4.png" alt="Artikel 4" class="w-full h-60 object-cover"> <!-- Gambar diperbesar -->
+                <img src="images/artikel4.jpg" alt="Artikel 4" class="w-full h-60 object-cover"> <!-- Gambar diperbesar -->
                 <div class="p-4">
                     <p class="text-gray-700 font-semibold">Apa Itu Gates Cambridge? Yuk Cari Tahu</p>
                 </div>
@@ -267,7 +267,7 @@
         
         <!-- Tombol Artikel Lainnya -->
         <div class="mt-10">
-            <a href="{{ url('/artikel') }}" class="inline-block bg-white border border-purple-500 text-purple-500 font-semibold px-6 py-2 rounded-full hover:bg-purple-500 hover:text-white transition">
+            <a href="{{ url('/article') }}" class="inline-block bg-white border border-purple-500 text-purple-500 font-semibold px-6 py-2 rounded-full hover:bg-purple-500 hover:text-white transition">
                 ARTIKEL LAINNYA
             </a>
         </div>
